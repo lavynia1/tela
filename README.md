@@ -1,0 +1,1 @@
+# tela-info-mobile
