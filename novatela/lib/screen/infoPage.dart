@@ -21,7 +21,7 @@ class _InfoPageState extends State<InfoPage> {
     return AppBar(
       leading: IconButton(
           onPressed: () {}, icon: Icon(Icons.keyboard_arrow_left_outlined)),
-      title: Align(alignment: Alignment(-0.2, 1.0), child: Text('SOBRE')),
+      title: Align(alignment: Alignment(-0.2, 1.0), child: Text('ABOUT')),
       backgroundColor: Colors.black87,
     );
   }
@@ -35,7 +35,7 @@ class _InfoPageState extends State<InfoPage> {
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: [Colors.grey, Colors.black],
+                colors: [Colors.grey.shade900, Colors.black],
               ),
             ),
             child: new Column(
@@ -70,11 +70,11 @@ class _InfoPageState extends State<InfoPage> {
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
                           colors: [
-                            Colors.lime.shade300,
-                            Colors.lightGreen.shade900
+                            Colors.blue.shade300,
+                            Colors.lightBlue.shade900
                           ]),
-                      border: Border.all(color: Colors.lime.shade700),
-                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(color: Colors.blue.shade700),
+                      borderRadius: BorderRadius.circular(5),
                     ),
                     child: Text(
                       'Smart Plantation',
@@ -97,12 +97,12 @@ class _InfoPageState extends State<InfoPage> {
                       gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
-                          colors: [Colors.grey.shade700, Colors.grey.shade700]),
+                          colors: [Colors.grey.shade800, Colors.grey.shade800]),
                       border: Border.all(color: Colors.white),
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(5),
                     ),
                     child: Text(
-                      'Somos uma empresa que gerencia plantações. Nós temos um sistema que otimiza seu processo de irrigação, com ele você terá melhor eficincia.',
+                      'Smart Plantation is a project that manages plantations. We have a system that optimizes your irrigation process, with it you will have better efficiency.',
                       textAlign: TextAlign.justify,
                       style: TextStyle(
                         fontWeight: FontWeight.w300,
@@ -114,7 +114,7 @@ class _InfoPageState extends State<InfoPage> {
                 ),
                 Center(
                   child: Container(
-                    padding: EdgeInsets.all(10),
+                    padding: EdgeInsets.all(5),
                     decoration: BoxDecoration(
                       border: Border(
                         bottom: BorderSide(
@@ -124,7 +124,7 @@ class _InfoPageState extends State<InfoPage> {
                       ),
                     ),
                     child: Text(
-                      'Como funciona:',
+                      'How it works:',
                       style: TextStyle(
                         fontWeight: FontWeight.normal,
                         fontSize: 20,
@@ -141,12 +141,12 @@ class _InfoPageState extends State<InfoPage> {
                       gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
-                          colors: [Colors.grey.shade700, Colors.grey.shade700]),
+                          colors: [Colors.grey.shade800, Colors.grey.shade800]),
                       border: Border.all(color: Colors.white),
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(5),
                     ),
                     child: Text(
-                      'O nosso sensor pega dados em tempo real',
+                      'this sensor catch real-time data',
                       textAlign: TextAlign.justify,
                       style: TextStyle(
                         fontWeight: FontWeight.w300,
@@ -168,7 +168,7 @@ class _InfoPageState extends State<InfoPage> {
                       ),
                     ),
                     child: Text(
-                      'Site oficial:',
+                      'Site:',
                       style: TextStyle(
                         fontWeight: FontWeight.normal,
                         fontSize: 20,
